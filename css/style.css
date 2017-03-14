@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700|Roboto:100,300,400,500,700');
+
+* {
+	margin: 0; 
+	padding: 0; 
+    font-family: 'Roboto', sans-serif;
+}
+
+#fullpage {
+    width: 100%;
+    height: 100%;
+    top: -200px;
+}
+
+.section {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    background-color: #f9a7c9;
+}
+
+#section0{
+
+/*
+    -moz-box-shadow: inset 0 -10px 10px -10px #98173d;
+    -webkit-box-shadow: inset 0 -10px 10px -10px #98173d;
+    box-shadow: inset 0 -10px 10px -10px #98173d;
+*/
+    color: #98173D;
+    font-size: 42px;
+    font-weight: 300;
+}
+
+#showoff span {
+    color: #FFFFFF;
+}
+
+/*
+#section1{
+    background: -webkit-gradient(linear, top left, bottom left, from(#d51f55), to(#ec8f45));
+    background: -webkit-linear-gradient(#d51f55, #ec8f45);
+    background: linear-gradient(#d51f55,#ec8f45);
+}
+
+#section2{
+    background-color: #ec8f45;
+}
+
+.container {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    color: #000000;
+}
+*/
+
+#icon {
+    width: 200px;
+    height: 200px;
+    z-index: 1000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.paper {
+    width: 95%;
+    background-color: #FFFFFF;
+    height: 95%;
+    position: absolute;
+    left: 2.5%;
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,.4);
+    
+}
+
+#paper1 {
+    bottom: 0;
+}
+
+#paper2 {
+    top: 0;
+}
+
+.container {
+    width: 45%;
+    height: 90%;
+    background-color: red;
+    position: absolute;
+    display: block;
+    top: 5%;
+}
+
+.container:nth-child(odd) {
+    left: 3%;
+}
+
+.container:nth-child(even) {
+    right: 3%;
+}
+
+#section2 .container {
+    height: 75%;
+}
+
+
+/**********************************
+            First Page
+**********************************/
+
+/*
+#aboutme h1 {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 42px;
+}
+*/
+
+.innercontainer {
+    width: 90%;
+    height: 45%;
+    background-color: yellow;
+    position: relative;
+    left: 5%;
+    margin-top: 5%;
+}
+
+.innercontainer h1 {
+    font-weight: 300;
+    font-size: 2em;
+    margin-bottom: 5%;
+}
+
+.innercontainer p {
+    width: 90%;
+    margin-left: 5%;
+    text-align: justify;
+    line-height: 150%;
+}
+
+.brackets {
+    font-style: italic
+}
+
+/**********************************
+            Second Page
+**********************************/
+
+
+
+/**********************************
+            Footer Page
+**********************************/
+
+#bottom {
+    width: 94%;
+    height: 15%;
+    position: absolute;
+    bottom: 2.5%;
+    left: 3%;
+/*    background-color: green;*/
+}
+
+#bottom a {
+    text-decoration: none;
+    color: #9B9B9B;
+}
+
+#bottom a:visited {
+    color: #9B9B9B;
+}
+
+#bottom h2,
+#bottom h3 {
+    font-weight: 300;
+    line-height: 90%;
+}
+
+#bottom h3 {
+    padding-top: 1%;
+}
+
+#bottom h2 {
+    padding-top: 1.5%;
+}
+
+#social img {
+    margin-top: 1%;
+    width: 2%;
+}
+
+#social a:nth-child(2) {
+    margin-right: .4%;
+}
+
+
+
